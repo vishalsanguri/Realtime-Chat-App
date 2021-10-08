@@ -1,0 +1,33 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A real time chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kabi4/Realtime-Chat-App-Api.git"
+  },
+  "author": "d3vilksk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kabi4/Realtime-Chat-App-Api/issues"
+  },
+  "homepage": "https://github.com/Kabi4/Realtime-Chat-App-Api#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
+}
